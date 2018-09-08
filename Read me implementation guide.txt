@@ -1,0 +1,41 @@
+Implementation:
+
+Software used: MATLAB R2016b(9.1.0.441655) : Classroom License
+
+1.rainfall Prediction for consecutive years
+
+RainfallTrain.mat contains training data for the code.
+RainfallTest.mat contains test data for the code.
+RainfallFuture.mat contains test data to predict future rainfall for next few dates.
+Main.m contains the main code for the program.
+FeatureNormalize.m is used for Feature Normalization.
+gradientDescent.m is used for Rainfall Prediction via Gradient Descent by linear regression method.
+predictrain.m % is used to predict the rain via the theta's obtained from gradient descent.
+Rain.m calculates the Rain value.
+
+Steps for execution:
+1. Double click on Main.m to launch matlab code.
+2. Click on Run icon under home tab.
+3. Wait till graphs are displayed.Graphs were plotted for actual forecast (obtained from dataset) and each algorithms separately. 
+   Also another graph is plotted for knowing how much the Prediction error is.
+   Here graphs are plotted for years 2014-2017  
+4. Check command window for accuracy and error Percentages.
+
+2.rainfall Prediction for Random years data.
+
+RainfallTrain.mat contains training data for the code.
+RainfallTest.mat contains test data for the code.
+RainfallFuture.mat contains test data to predict future rainfall for next few dates.
+Main.m contains the main code for the program.
+FeatureNormalize.m is used for Feature Normalization.
+gradientDescent.m is used for Rainfall Prediction via Gradient Descent by linear regression method.
+predictrain.m % is used to predict the rain via the theta's obtained from gradient descent.
+Rain.m calculates the Rain value.
+
+Steps for execution:
+1. Double click on Main.m to launch matlab code.
+2. Click on Run icon under home tab.
+3. Wait till graphs are displayed. Graphs were plotted for actual forecast (obtained from dataset) and each algorithms separately. 
+   Also another graph is plotted for knowing how much the Prediction error is.
+   Here graphs are plotted for random years 2000,2009 and 2016  
+4. Check command window for accuracy and error Percentages.
